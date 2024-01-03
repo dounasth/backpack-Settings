@@ -25,7 +25,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "backpack/crud": "^4.0|^5.0|^6.0"
+        "backpack/crud": "^4.0|^5.0|^6.0|dev-four-one-fork-l9"
     },
     "require-dev": {
         "phpunit/phpunit" : "^9.0||^7.0",
@@ -53,5 +53,11 @@
                 "Backpack\\Settings\\SettingsServiceProvider"
             ]
         }
-    }
+    },
+	"repositories": [
+		{
+            "type": "git",
+            "url": "https://github.com/dounasth/backpack-CRUD.git"
+        }
+	]
 }
